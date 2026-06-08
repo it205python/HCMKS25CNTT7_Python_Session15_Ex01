@@ -34,6 +34,7 @@ def process_sale(quantity):
 
 def calculate_final_price(quantity, price):
     """tính chi phí"""
+    discount = 0
     total_money = quantity * price
 
     if (total_money >= 1000):
